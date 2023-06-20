@@ -1,0 +1,281 @@
+[ {
+  "uid" : "cc93f0768dddc55b",
+  "name" : "Go to the designer from your personal cabinet",
+  "time" : {
+    "start" : 1687260635462,
+    "stop" : 1687260639096,
+    "duration" : 3634
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27f1d246ebfd7a7f",
+  "name" : "Successful user registration",
+  "time" : {
+    "start" : 1687260609964,
+    "stop" : 1687260610273,
+    "duration" : 309
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1fdee1d98148e39",
+  "name" : "Click on the 'Stellar Burgers' logo",
+  "time" : {
+    "start" : 1687260689891,
+    "stop" : 1687260693491,
+    "duration" : 3600
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91d48b979629749e",
+  "name" : "Authorization through the registration form",
+  "time" : {
+    "start" : 1687260600340,
+    "stop" : 1687260600650,
+    "duration" : 310
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9608684589ce9435",
+  "name" : "Go to the 'РЎРѕСѓСЃС‹' tab",
+  "time" : {
+    "start" : 1687260630795,
+    "stop" : 1687260631155,
+    "duration" : 360
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "23adc384107661bb",
+  "name" : "Authorization through password recovery form",
+  "time" : {
+    "start" : 1687260572272,
+    "stop" : 1687260572696,
+    "duration" : 424
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c2ff0f3e8dd14892",
+  "name" : "Unsuccessful user registration.",
+  "time" : {
+    "start" : 1687260613263,
+    "stop" : 1687260613558,
+    "duration" : 295
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "453b162607f7ea1d",
+  "name" : "'Р’С‹С…РѕРґ' from my personal account",
+  "time" : {
+    "start" : 1687260654162,
+    "stop" : 1687260657610,
+    "duration" : 3448
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "479cb5729361ec78",
+  "name" : "Go to login page",
+  "time" : {
+    "start" : 1687260666890,
+    "stop" : 1687260670344,
+    "duration" : 3454
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6d227394cc790cec",
+  "name" : "Authorize via the 'Login to Account' button",
+  "time" : {
+    "start" : 1687260595775,
+    "stop" : 1687260596089,
+    "duration" : 314
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8ba9bf3895b661",
+  "name" : "Authorization through the 'My Account' button",
+  "time" : {
+    "start" : 1687260575359,
+    "stop" : 1687260575716,
+    "duration" : 357
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "233578ce78abc75",
+  "name" : "Authorization through password recovery form",
+  "time" : {
+    "start" : 1687260586298,
+    "stop" : 1687260586758,
+    "duration" : 460
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "edecf94b309743fa",
+  "name" : "Authorization through the 'My Account' button",
+  "time" : {
+    "start" : 1687260592440,
+    "stop" : 1687260592942,
+    "duration" : 502
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4191931a9848b77f",
+  "name" : "Unsuccessful user registration.",
+  "time" : {
+    "start" : 1687260606403,
+    "stop" : 1687260606502,
+    "duration" : 99
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a331a65da6013a98",
+  "name" : "Authorize via the 'Login to Account' button",
+  "time" : {
+    "start" : 1687260578923,
+    "stop" : 1687260579070,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7004d7b1a405c6e5",
+  "name" : "Click on the 'Stellar Burgers' logo",
+  "time" : {
+    "start" : 1687260660341,
+    "stop" : 1687260663801,
+    "duration" : 3460
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d95c143a52fff0b",
+  "name" : "Going to the 'Р‘СѓР»РєРё' tab",
+  "time" : {
+    "start" : 1687260627940,
+    "stop" : 1687260628082,
+    "duration" : 142
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dc38e685b6a5d58a",
+  "name" : "Successful user registration",
+  "time" : {
+    "start" : 1687260603155,
+    "stop" : 1687260603296,
+    "duration" : 141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d6efa3a7f994f5a",
+  "name" : "Go to the 'РЎРѕСѓСЃС‹' tab",
+  "time" : {
+    "start" : 1687260616668,
+    "stop" : 1687260616824,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2137b0670c1e18",
+  "name" : "'Р’С‹С…РѕРґ' from my personal account",
+  "time" : {
+    "start" : 1687260681963,
+    "stop" : 1687260685563,
+    "duration" : 3600
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e7d17ca1c64fba74",
+  "name" : "Transition to the personal account page with authorization",
+  "time" : {
+    "start" : 1687260648259,
+    "stop" : 1687260651671,
+    "duration" : 3412
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4e3f527776691e3",
+  "name" : "Authorization through the registration form",
+  "time" : {
+    "start" : 1687260581731,
+    "stop" : 1687260581872,
+    "duration" : 141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "79751417f1b3d014",
+  "name" : "Going to the 'Р‘СѓР»РєРё' tab",
+  "time" : {
+    "start" : 1687260645427,
+    "stop" : 1687260645744,
+    "duration" : 317
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ab7b777f6d137ec",
+  "name" : "Transition to the personal account page with authorization",
+  "time" : {
+    "start" : 1687260675374,
+    "stop" : 1687260679039,
+    "duration" : 3665
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c8772d768cffdc",
+  "name" : "Go to login page",
+  "time" : {
+    "start" : 1687260696284,
+    "stop" : 1687260699900,
+    "duration" : 3616
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "79d8fb7a5e699e06",
+  "name" : "Go to the designer from your personal cabinet",
+  "time" : {
+    "start" : 1687260619289,
+    "stop" : 1687260622767,
+    "duration" : 3478
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d4e512c4030abb3d",
+  "name" : "Go to the 'РќР°С‡РёРЅРєРё' tab",
+  "time" : {
+    "start" : 1687260625328,
+    "stop" : 1687260625488,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ca2e2d020b150ad",
+  "name" : "Go to the 'РќР°С‡РёРЅРєРё' tab",
+  "time" : {
+    "start" : 1687260642249,
+    "stop" : 1687260642590,
+    "duration" : 341
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

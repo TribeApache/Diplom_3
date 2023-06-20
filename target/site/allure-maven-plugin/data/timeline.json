@@ -1,0 +1,377 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-MH9FH38",
+    "children" : [ {
+      "name" : "4740@DESKTOP-MH9FH38.main(1)",
+      "children" : [ {
+        "name" : "'Р’С‹С…РѕРґ' from my personal account",
+        "uid" : "453b162607f7ea1d",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260654162,
+          "stop" : 1687260657610,
+          "duration" : 3448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorize via the 'Login to Account' button",
+        "uid" : "a331a65da6013a98",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260578923,
+          "stop" : 1687260579070,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorize via the 'Login to Account' button",
+        "uid" : "6d227394cc790cec",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260595775,
+          "stop" : 1687260596089,
+          "duration" : 314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Going to the 'Р‘СѓР»РєРё' tab",
+        "uid" : "d95c143a52fff0b",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260627940,
+          "stop" : 1687260628082,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the 'РЎРѕСѓСЃС‹' tab",
+        "uid" : "9608684589ce9435",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260630795,
+          "stop" : 1687260631155,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through the 'My Account' button",
+        "uid" : "edecf94b309743fa",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260592440,
+          "stop" : 1687260592942,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through password recovery form",
+        "uid" : "233578ce78abc75",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260586298,
+          "stop" : 1687260586758,
+          "duration" : 460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to login page",
+        "uid" : "479cb5729361ec78",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260666890,
+          "stop" : 1687260670344,
+          "duration" : 3454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the designer from your personal cabinet",
+        "uid" : "79d8fb7a5e699e06",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260619289,
+          "stop" : 1687260622767,
+          "duration" : 3478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through password recovery form",
+        "uid" : "23adc384107661bb",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260572272,
+          "stop" : 1687260572696,
+          "duration" : 424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through the 'My Account' button",
+        "uid" : "7a8ba9bf3895b661",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260575359,
+          "stop" : 1687260575716,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Transition to the personal account page with authorization",
+        "uid" : "e7d17ca1c64fba74",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260648259,
+          "stop" : 1687260651671,
+          "duration" : 3412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the 'РЎРѕСѓСЃС‹' tab",
+        "uid" : "4d6efa3a7f994f5a",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260616668,
+          "stop" : 1687260616824,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through the registration form",
+        "uid" : "f4e3f527776691e3",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260581731,
+          "stop" : 1687260581872,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unsuccessful user registration.",
+        "uid" : "4191931a9848b77f",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260606403,
+          "stop" : 1687260606502,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Going to the 'Р‘СѓР»РєРё' tab",
+        "uid" : "79751417f1b3d014",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260645427,
+          "stop" : 1687260645744,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Authorization through the registration form",
+        "uid" : "91d48b979629749e",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260600340,
+          "stop" : 1687260600650,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful user registration",
+        "uid" : "dc38e685b6a5d58a",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260603155,
+          "stop" : 1687260603296,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to login page",
+        "uid" : "c8772d768cffdc",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260696284,
+          "stop" : 1687260699900,
+          "duration" : 3616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'Р’С‹С…РѕРґ' from my personal account",
+        "uid" : "4d2137b0670c1e18",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260681963,
+          "stop" : 1687260685563,
+          "duration" : 3600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful user registration",
+        "uid" : "27f1d246ebfd7a7f",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260609964,
+          "stop" : 1687260610273,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Transition to the personal account page with authorization",
+        "uid" : "6ab7b777f6d137ec",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260675374,
+          "stop" : 1687260679039,
+          "duration" : 3665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on the 'Stellar Burgers' logo",
+        "uid" : "7004d7b1a405c6e5",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260660341,
+          "stop" : 1687260663801,
+          "duration" : 3460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the designer from your personal cabinet",
+        "uid" : "cc93f0768dddc55b",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260635462,
+          "stop" : 1687260639096,
+          "duration" : 3634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on the 'Stellar Burgers' logo",
+        "uid" : "e1fdee1d98148e39",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260689891,
+          "stop" : 1687260693491,
+          "duration" : 3600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unsuccessful user registration.",
+        "uid" : "c2ff0f3e8dd14892",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260613263,
+          "stop" : 1687260613558,
+          "duration" : 295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the 'РќР°С‡РёРЅРєРё' tab",
+        "uid" : "d4e512c4030abb3d",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260625328,
+          "stop" : 1687260625488,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Go to the 'РќР°С‡РёРЅРєРё' tab",
+        "uid" : "3ca2e2d020b150ad",
+        "parentUid" : "3ccfbf42c0754067bba72d18600c36fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1687260642249,
+          "stop" : 1687260642590,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ccfbf42c0754067bba72d18600c36fc"
+    } ],
+    "uid" : "19b20565071c71f0bb25afb242dafd1f"
+  } ]
+}

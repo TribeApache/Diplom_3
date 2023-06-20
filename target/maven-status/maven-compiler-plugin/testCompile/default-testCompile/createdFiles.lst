@@ -1,0 +1,9 @@
+tests\RegistrationTest.class
+pages\LoginPage.class
+pages\RecoverPasswordPage.class
+pages\RegisterPage.class
+tests\LoginTest.class
+tests\TransitionInConstructorTest.class
+pages\ProfilePage.class
+tests\TransitionInProfilePageTest.class
+pages\MainPage.class

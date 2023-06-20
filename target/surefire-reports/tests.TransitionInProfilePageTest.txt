@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Test set: tests.TransitionInProfilePageTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 54.085 s <<< FAILURE! - in tests.TransitionInProfilePageTest
+transitionToProfilePageWithAuthUserTest[driver: chromedriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.413 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToProfilePageWithAuthUserTest(TransitionInProfilePageTest.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11a0417d51835348867057a8fea2a134
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToProfilePageWithAuthUserTest(TransitionInProfilePageTest.java:64)
+
+exitFromProfileTest[driver: chromedriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.451 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.exitFromProfileTest(TransitionInProfilePageTest.java:94)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bceef6247cdc23068acae209ea4f6ab
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.exitFromProfileTest(TransitionInProfilePageTest.java:94)
+
+transitionToStellarBurgersFromProfilePageTest[driver: chromedriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.461 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToStellarBurgersFromProfilePageTest(TransitionInProfilePageTest.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f58469e73579a83ff27f57575bec0bf
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToStellarBurgersFromProfilePageTest(TransitionInProfilePageTest.java:81)
+
+transitionToProfilePageTest[driver: chromedriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.455 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToProfilePageTest(TransitionInProfilePageTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea2963b00e81405ca55744e1e5320a86
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToProfilePageTest(TransitionInProfilePageTest.java:52)
+
+transitionToProfilePageWithAuthUserTest[driver: yandexdriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.667 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToProfilePageWithAuthUserTest(TransitionInProfilePageTest.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=112.0.5615.204)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.204, chrome: {chromedriverVersion: 112.0.5615.183 (3d1b35f30c0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51824}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21a2d6985903b765806e77899f692a14
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToProfilePageWithAuthUserTest(TransitionInProfilePageTest.java:64)
+
+exitFromProfileTest[driver: yandexdriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.601 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.exitFromProfileTest(TransitionInProfilePageTest.java:94)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=112.0.5615.204)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.204, chrome: {chromedriverVersion: 112.0.5615.183 (3d1b35f30c0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e26bb7c1b15dc412998d8a4779967531
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.exitFromProfileTest(TransitionInProfilePageTest.java:94)
+
+transitionToStellarBurgersFromProfilePageTest[driver: yandexdriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.603 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToStellarBurgersFromProfilePageTest(TransitionInProfilePageTest.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=112.0.5615.204)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.204, chrome: {chromedriverVersion: 112.0.5615.183 (3d1b35f30c0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b142024e1b54b05dd6b58b27191850a2
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToStellarBurgersFromProfilePageTest(TransitionInProfilePageTest.java:81)
+
+transitionToProfilePageTest[driver: yandexdriver](tests.TransitionInProfilePageTest)  Time elapsed: 3.617 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//main/div/h2[text()='Вход'] (tried for 3 second(s) with 500 milliseconds interval)
+	at tests.TransitionInProfilePageTest.transitionToProfilePageTest(TransitionInProfilePageTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//main/div/h2[text()='Вход']"}
+  (Session info: chrome=112.0.5615.204)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MH9FH38', ip: '192.168.13.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.204, chrome: {chromedriverVersion: 112.0.5615.183 (3d1b35f30c0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cda30bad7042500e72f95b12f744ff5
+*** Element info: {Using=xpath, value=.//main/div/h2[text()='Вход']}
+	at tests.TransitionInProfilePageTest.transitionToProfilePageTest(TransitionInProfilePageTest.java:52)
+
