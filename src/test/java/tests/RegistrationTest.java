@@ -4,10 +4,9 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.html5.LocalStorage;
 import org.openqa.selenium.html5.WebStorage;
 import org.openqa.selenium.remote.Augmenter;
@@ -17,7 +16,6 @@ import page.UserClient;
 
 import static org.junit.Assert.assertTrue;
 
-@RunWith(Parameterized.class)
 public class RegistrationTest {
     private WebDriver driver;
     private UserClient userClient;
@@ -28,27 +26,21 @@ public class RegistrationTest {
     private String passwordIncorrect;
     private int count = 10;
     private int countForPasswordIncorrect = 1;
-    private boolean checkNeedSetYandexDriver;
-
-    public RegistrationTest(boolean checkNeedSetYandexDriver) {
-        this.checkNeedSetYandexDriver = checkNeedSetYandexDriver;
-    }
-
-    @Parameterized.Parameters
-    public static Object[][] testData() {
-        return new Object[][] {
-                {false},
-                {true}
-        };
-    }
 
     @Before
     public void startUp() {
-        if (checkNeedSetYandexDriver) {
+        String browser = System.getProperty("browser", "chrome");
+        if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver",
                     "C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\chromedriver.exe");
+            driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("yandex")) {
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\chromedriver.exe");
+            ChromeOptions options = new ChromeOptions();
+            options.setBinary("C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\yandexdriver.exe");
+            driver = new ChromeDriver(options);
         }
-        driver = new ChromeDriver();
+
         userClient = new UserClient();
         page = new MainPage(driver);
         name = RandomStringUtils.randomAlphabetic(count);
@@ -59,11 +51,11 @@ public class RegistrationTest {
 
     @After
     public void teardown() {
-        //получения токена для удаления на главной странице после логина
+        // получение токена для удаления на главной странице после логина
         page.open()
                 .clickPersonalAccountButton()
                 .logInUser(email, password);
-        //Получение токена для удаления созданного пользователя
+        // Получение токена для удаления созданного пользователя
         WebStorage webStorage = (WebStorage) new Augmenter().augment(driver);
         LocalStorage localStorage = webStorage.getLocalStorage();
         String accessToken = localStorage.getItem("accessToken");

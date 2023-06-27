@@ -3,42 +3,35 @@ package tests;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import page.MainPage;
 
 import static org.junit.Assert.assertTrue;
 
-@RunWith(Parameterized.class)
 public class TransitionTest {
 
     private WebDriver driver;
     private MainPage page;
     private int count = 10;
-    private boolean checkNeedSetYandexDriver;
-
-    public TransitionTest(boolean checkNeedSetYandexDriver) {
-        this.checkNeedSetYandexDriver = checkNeedSetYandexDriver;
-    }
-
-    @Parameterized.Parameters
-    public static Object[][] testData() {
-        return new Object[][] {
-                {false},
-                {true}
-        };
-    }
 
     @Before
     public void startUp() {
-        if (checkNeedSetYandexDriver) {
+        String browser = System.getProperty("browser", "chrome");
+        if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver",
                     "C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\chromedriver.exe");
+            driver = new ChromeDriver();
         }
-        driver = new ChromeDriver();
+        else if (browser.equalsIgnoreCase("yandex")) {
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\chromedriver.exe");
+            ChromeOptions options = new ChromeOptions();
+            options.setBinary("C:\\Users\\user\\Desktop\\Diplom_Artemyev_Constantine_19\\Diplom_3\\src\\main\\resources\\drivers\\yandexdriver.exe");
+            driver = new ChromeDriver(options);
+        }
+
         page = new MainPage(driver);
     }
 
